@@ -6981,11 +6981,25 @@ MonoBehaviour:
     SpawnDuration: 5
     SpawnCountMax: 30
     EnemyIds: c8000000
+  - Title: 0:30 1
+    ElapsedMinutes: 0
+    ElapsedSeconds: 30
+    SpawnType: 1
+    SpawnDuration: 5
+    SpawnCountMax: 2
+    EnemyIds: 90030000
+  - Title: 0:30 blue
+    ElapsedMinutes: 0
+    ElapsedSeconds: 1
+    SpawnType: 1
+    SpawnDuration: 6
+    SpawnCountMax: 30
+    EnemyIds: 91030000
   - Title: "0:30 \u30B9\u30E9\u30A4\u30E0"
     ElapsedMinutes: 0
     ElapsedSeconds: 30
     SpawnType: 0
-    SpawnDuration: 5
+    SpawnDuration: 30
     SpawnCountMax: 20
     EnemyIds: 65000000
   - Title: "1:00 \u30B4\u30D6\u30EA\u30F3"
@@ -7037,6 +7051,13 @@ MonoBehaviour:
     SpawnDuration: 5
     SpawnCountMax: 30
     EnemyIds: 69000000f4010000
+  - Title: "0:00 \u30C9\u30E9\u30B4\u30F3"
+    ElapsedMinutes: 0
+    ElapsedSeconds: 3
+    SpawnType: 0
+    SpawnDuration: 1
+    SpawnCountMax: 10
+    EnemyIds: 8f030000
 --- !u!1 &325701671
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ MonoBehaviour:
     Lv: 1
     Name: "\u30B9\u30E9\u30C3\u30B7\u30E5"
     Description: 
-    Attack: 15
+    Attack: 116
     Defense: 0
     HP: -1
     MaxHP: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
     MaxHP: 0
     XP: 0
     MaxXP: 0
-    MoveSpeed: 10
+    MoveSpeed: 40
     PickUpRange: 0
     AliveTime: 10
     PrefabSpawner: {fileID: 1091639994214899468, guid: 482cd63302959434082f603b93b9e292, type: 3}
@@ -158,7 +158,7 @@ MonoBehaviour:
     Lv: 1
     Name: "\u5186\u6708\u8F2A"
     Description: "\u753B\u9762\u7AEF\u3067\u8DF3\u306D\u8FD4\u308B\u5186\u5F62\u306E\u624B\u88CF\u5263"
-    Attack: 10
+    Attack: 25
     Defense: 0
     HP: -1
     MaxHP: 0
