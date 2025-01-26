@@ -47,8 +47,7 @@ public class CharacterSettings : ScriptableObject
     }
 
     // プレイヤー生成
-    public PlayerController CreatePlayer(int id, GameSceneDirector sceneDirector,
-        EnemySpawnerController enemySpawner, Text textLv, Slider sliderHP, Slider sliderXP)
+    public PlayerController CreatePlayer(int id, GameSceneDirector sceneDirector,EnemySpawnerController enemySpawner, Text textLv, Slider sliderHP, Slider sliderXP)
     {
         // ステータス取得
         CharacterStats stats = Instance.Get(id);
